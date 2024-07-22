@@ -35,8 +35,8 @@ function TicTacToe() {
       const [x, y, z] = winPatterns[i];
       if (
         squares[x] !== "." &&
-        squares[x] == squares[y] &&
-        squares[x] == squares[z]
+        squares[x] === squares[y] &&
+        squares[x] === squares[z]
       ) {
         setWin(true);
         return;
