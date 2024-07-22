@@ -1,0 +1,29 @@
+.main-color {
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  /* size */
+  width: 90%;
+  height: 500px;
+}
+.random-color-btn {
+  /* design */
+  cursor: pointer;
+  margin: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 25px;
+  /* layout */
+  padding: 5px 25px;
+}
+.random-color-btn:active {
+  /* scale */
+  transform: scale(0.98);
+}

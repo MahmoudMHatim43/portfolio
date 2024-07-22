@@ -1,0 +1,88 @@
+.ttt-main-container {
+  /* design */
+  text-align: center;
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  /* size */
+  width: 80%;
+}
+.ttt-container {
+  /* design */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* layout */
+  display: table;
+  margin: 50px auto 0 auto;
+  /* size */
+  max-width: 400px;
+  max-height: 400px;
+}
+.ttt-header h1 {
+  /* layout */
+  margin: 10px;
+}
+.ttt-header p {
+  /* design */
+  font-size: 20px;
+  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
+  /* layouts */
+  padding: 10px;
+  margin: 0 auto;
+  /* size */
+  width: 100%;
+}
+.ttt-row {
+  /* layout */
+  display: table-row;
+}
+.ttt-cell {
+  /* design */
+  outline: none;
+  cursor: pointer;
+  background-color: #ababab;
+  opacity: 0.6;
+  font-size: 50px;
+  border: 1px solid black;
+  /* size */
+  width: calc(400px / 3);
+  height: calc(400px / 3);
+  /* layout */
+  display: table-cell;
+  /* animation */
+  transition: opacity 0.3s ease;
+}
+.ttt-cell:hover {
+  /* design */
+  opacity: 1;
+}
+.ttt-winner {
+  /* design */
+  font-size: 40px;
+  /* position */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ttt-reset-btn {
+  /* design */
+  cursor: pointer;
+  font-size: 30px;
+  background-color: orange;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  /* position */
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* layout */
+  padding: 10px 20px;
+}
+.ttt-reset-btn:active {
+  /* position */
+  transform: scale(0.98) translate(-50%, -50%);
+}
