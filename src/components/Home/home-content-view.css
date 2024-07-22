@@ -1,0 +1,10 @@
+.home-content-container {
+  /* design */
+  border-left: 2px solid #b5b5b5;
+  line-height: 2;
+  /* layout */
+  margin: 20px auto;
+  padding: 10px;
+  /* size */
+  width: 60%;
+}

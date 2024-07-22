@@ -1,0 +1,38 @@
+.nav-container {
+  /* design */
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #454545;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  /* layout */
+  padding: 4px;
+  margin: 10px auto;
+  /* width */
+  width: 90%;
+  /* positon */
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+.nav-unordered-list {
+  /* design */
+  list-style: none;
+  /* layout */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-item {
+  /* design */
+  color: white;
+  cursor: pointer;
+  /* animation */
+  transition: color 0.5s ease;
+}
+.nav-item:hover {
+  /* design */
+  color: orange;
+}
