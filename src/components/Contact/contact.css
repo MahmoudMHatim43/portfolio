@@ -1,0 +1,87 @@
+.contact-container {
+  /* design */
+  text-align: center;
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 auto;
+  /* size */
+  width: 80%;
+}
+.contact-container a {
+  /* design */
+  font-size: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: white;
+  /* layout */
+  padding: 5px 20px;
+  margin: 5px;
+}
+.facebook {
+  background-color: #3b5998;
+}
+.github {
+  background-color: #333333;
+}
+.linkedin {
+  background-color: #0077b5;
+}
+.x {
+  background-color: #000000;
+}
+.instagram {
+  background-color: #833ab4;
+}
+.protfolio-form {
+  /* design */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  overflow: hidden;
+  /* layout */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 30px;
+  /* size */
+  width: 100%;
+  height: 400px;
+}
+.protfolio-form textarea {
+  /* design */
+  font-size: 16px;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  /* size */
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 80%;
+  min-height: 80%;
+}
+.protfolio-form button {
+  /* layout */
+  cursor: pointer;
+  border: none;
+  background-color: #0077b5;
+  color: white;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 10px 30px;
+  margin: 5px auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  /* size */
+  width: 150px;
+  /* animation */
+  transition: all 0.2s ease;
+}
+.protfolio-form button:disabled {
+  /* design */
+  opacity: 0.5;
+}
+.protfolio-form button:not(:disabled):hover {
+  /* scale */
+  transform: scale(1.03);
+}
