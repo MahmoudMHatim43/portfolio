@@ -1,0 +1,104 @@
+.about-container {
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin: 0 auto;
+  /* size */
+  width: 80%;
+}
+.about-container img {
+  /* desing */
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  /* size */
+  width: 350px;
+  height: 350px;
+}
+.about-container h2 {
+  /* desing */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  /* layout */
+  padding: 5px;
+}
+.my-name {
+  /* design */
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.bio {
+  /* design */
+  text-align: center;
+}
+.p-languages {
+  /* design */
+  list-style: none;
+  /* layout */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* size */
+  width: 80%;
+}
+.lan-item {
+  /* design */
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  background-color: red;
+  text-align: center;
+  /* layout */
+  padding: 5px;
+  /* size */
+}
+.lan-item.Python {
+  /* design */
+  background-color: #ff8800;
+}
+.lan-item.C {
+  /* design */
+  color: white;
+  background-color: #00599c;
+}
+.lan-item.JavaScript {
+  /* design */
+  background-color: #f7dc0f;
+}
+.lan-item.React {
+  /* design */
+  background-color: #61dafb;
+}
+.lan-item.HTML {
+  /* design */
+  background-color: #e34c26;
+}
+.lan-item.CSS {
+  /* design */
+  color: white;
+  background-color: #563d7c;
+}
+.lan-item.SQLite {
+  /* design */
+  color: white;
+  background-color: #292e33;
+}
+.skills-list {
+  /* design */
+  list-style: none;
+  /* layout */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.skills-list li {
+  /* design */
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  /* layout */
+  padding: 5px;
+}

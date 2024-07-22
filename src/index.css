@@ -12,4 +12,5 @@ body {
   font-style: normal;
   overflow-x: hidden;
   background-color: #e1e1e1;
+  position: relative;
 }
