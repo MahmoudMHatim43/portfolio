@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./navbar.css";
 import React from "react";
 function Navbar() {
@@ -11,11 +12,16 @@ function Navbar() {
       <ul className="nav-unordered-list">
         {pages.map((page, index) => (
           <li
-            className="nav-item"
             style={{ color: active === page ? "orange" : null }}
             key={index}
             onClick={activePage}>
-            {page}
+            <NavLink
+              className="nav-item"
+              to={`/${
+                page.toLowerCase() === "home" ? "" : page.toLowerCase()
+              }`}>
+              {page}
+            </NavLink>
           </li>
         ))}
       </ul>

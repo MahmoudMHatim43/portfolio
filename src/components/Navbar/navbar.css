@@ -29,6 +29,7 @@
 .nav-item {
   /* design */
   color: white;
+  text-decoration: none;
   cursor: pointer;
   /* animation */
   transition: color 0.5s ease;
