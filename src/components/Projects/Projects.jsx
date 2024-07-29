@@ -1,13 +1,13 @@
 import "./projects.css";
 import React from "react";
-import ImageSlider from "./ImageSlider/ImageSlider";
-// <ImageSlider url={"https://dummyjson.com/products?limit="} limit={"5"} />
-import QrCodeGenerator from "./QrCode/QrCode";
-import TicTacToe from "./TicTacToe/TicTacToe";
-import StarRating from "./StarRating/StarRating";
-import RandomColor from "./RandomColor/RandomColor";
-import Calculator from "./Calculator/Calculator";
-import ExpenseTracker from "./ExpenseTracker/ExpenseTracker";
+// import ImageSlider from "./ImageSlider/ImageSlider";
+// // <ImageSlider url={"https://dummyjson.com/products?limit="} limit={"5"} />
+// import QrCodeGenerator from "./QrCode/QrCode";
+// import TicTacToe from "./TicTacToe/TicTacToe";
+// import StarRating from "./StarRating/StarRating";
+// import RandomColor from "./RandomColor/RandomColor";
+// import Calculator from "./Calculator/Calculator";
+// import ExpenseTracker from "./ExpenseTracker/ExpenseTracker";
 const Projects = () => {
   const projects = [
     {
