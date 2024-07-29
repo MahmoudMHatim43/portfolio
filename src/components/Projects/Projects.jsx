@@ -1,4 +1,4 @@
-// import "./projects.css";
+import "./projects.css";
 import React from "react";
 // import ImageSlider from "./ImageSlider/ImageSlider";
 // // <ImageSlider url={"https://dummyjson.com/products?limit="} limit={"5"} />
