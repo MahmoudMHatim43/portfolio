@@ -11,46 +11,70 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
+      title: "Full Stack Blog App",
+      description:
+        "A dynamic blog app with Express, Nodemon, Mongoose, and CORS. Features include creating, editing, and deleting blogs, smooth page transitions, and an engaging loading indicator.",
+      imageUrl: "/Projects/full-stack-blog-app.PNG",
+      link: "",
+    },
+    {
+      title: "Expense Tracker V2.0",
+      description:
+        "Advanced tracker with dynamic charts and transaction modals.",
+      imageUrl: "/Projects/express-app-v2.0.PNG",
+      link: "",
+    },
+    {
+      title: "Food Recipe App",
+      description: "Fetches recipes and includes a favorites feature.",
+      imageUrl: "/Projects/food-recipe-app.PNG",
+      link: "./ExpenseTracker/ExpenseTracker",
+    },
+    {
+      title: "Shop Cart with React-Redux",
+      description: "A shopping cart built using React-Redux.",
+      imageUrl: "/Projects/redux-shop-cart-app.PNG",
+      link: "./ExpenseTracker/ExpenseTracker",
+    },
+    {
       title: "Image Slider",
-      description: "A project that allows users to slide through images.",
+      description: "An interactive image slider application.",
       imageUrl: "/Projects/Image-slider.PNG",
       link: "./ImageSlider/ImageSlider/Projects/ImageSlider/ImageSlider",
     },
     {
-      title: "QrCode Generator",
-      description: "A project that generates QR codes based on user input.",
+      title: "QR Code Generator",
+      description: "Generates QR codes from user input.",
       imageUrl: "/Projects/qrCode.PNG",
       link: "./QrCode/QrCode",
     },
     {
       title: "Tic Tac Toe",
-      description: "A classic game of tic tac toe.",
+      description: "The classic Tic Tac Toe game.",
       imageUrl: "/Projects/tictactoe.PNG",
       link: "./TicTacToe/TicTacToe",
     },
     {
       title: "Star Rating",
-      description: "A simple star rating system.",
+      description: "A simple and intuitive star rating system.",
       imageUrl: "/Projects/rate.PNG",
       link: "./StarRating/StarRating",
     },
     {
-      title: "Random Color",
-      description: "A project that generates random colors.",
+      title: "Random Color Generator",
+      description: "Generates random colors with each click.",
       imageUrl: "/Projects/random-color.PNG",
       link: "./RandomColor/RandomColor",
     },
     {
       title: "Calculator",
-      description:
-        "A simple calculator that performs basic arithmetic operations.",
+      description: "Performs basic arithmetic operations.",
       imageUrl: "/Projects/calculator.PNG",
       link: "./Calculator/Calculator",
     },
     {
       title: "Expense Tracker",
-      description:
-        "A simple expense tracker that allows users to log their expenses.",
+      description: "Logs and tracks expenses efficiently.",
       imageUrl: "/Projects/expense-tracker.PNG",
       link: "./ExpenseTracker/ExpenseTracker",
     },
@@ -58,12 +82,14 @@ const Projects = () => {
 
   return (
     <div className="projects-page">
-      <h1 className="projects-heading">Projects</h1>
+      <h1 className="projects-heading text-3xl first-letter:text-5xl p-2">
+        Projects
+      </h1>
       <div className="projects-container">
         {projects.map((project) => {
           return (
             <div className="project" key={project.title}>
-              <h2>{project.title}</h2>
+              <h2 className="p-2">{project.title}</h2>
               <p>{project.description}</p>
               <img src={project.imageUrl} alt="" />
             </div>

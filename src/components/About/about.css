@@ -14,12 +14,12 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   border-radius: 50%;
   /* size */
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
 }
 .about-container h2 {
   /* desing */
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   /* layout */
   padding: 5px;
 }
@@ -55,6 +55,7 @@
 }
 .lan-item.Python {
   /* design */
+  color: black;
   background-color: #ff8800;
 }
 .lan-item.C {
@@ -64,10 +65,12 @@
 }
 .lan-item.JavaScript {
   /* design */
+  color: black;
   background-color: #f7dc0f;
 }
 .lan-item.React {
   /* design */
+  color: black;
   background-color: #61dafb;
 }
 .lan-item.HTML {

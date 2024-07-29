@@ -1,6 +1,7 @@
 .projects-container {
   /* layout */
   display: flex;
+  justify-content: center;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
@@ -24,6 +25,7 @@
   align-items: center;
   margin: 10px;
   /* size */
+  width: calc(30% - 20px);
   width: 30%;
   height: 250px;
   /* position */
@@ -31,11 +33,17 @@
   /* animation */
   transition: all 0.3s ease;
 }
+@media (max-width: 768px) {
+  .project {
+    width: 100%;
+  }
+}
 .projects-heading {
   /* design */
   text-align: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   /* size */
+  width: 80%;
   width: 30%;
   /* layout */
   margin: 20px auto;
@@ -54,14 +62,23 @@
 .project:hover {
   /* design */
   opacity: 1;
+  transition: all 0.3s ease;
+}
+.project:hover img {
   /* position */
-  transform: scale(1.03);
+
+  transform: scale(1.2);
+  transition: all 0.3s ease;
 }
 .project img {
   /* design */
   object-fit: cover;
   width: 100%;
+  height: 100%;
   /* position */
   position: absolute;
+  top: 0;
+  left: 0;
   z-index: -2;
+  transition: all 0.3s ease;
 }
