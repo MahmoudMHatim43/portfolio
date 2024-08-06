@@ -1,0 +1,26 @@
+.stars-container {
+  /* design */
+  font-size: 30px;
+  background-color: transparent;
+  padding: 10px 50px;
+  /* layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  /* sizw */
+  width: 50%;
+}
+.rate-heading {
+  /* desing */
+  text-align: center;
+  border-bottom: 1px solid black;
+  /* size */
+  width: 50%;
+  /* layout */
+  margin: 0 auto;
+}
+.yellow-star {
+  /* design */
+  color: rgb(255, 255, 0);
+}
